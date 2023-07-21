@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginOtpActivity">
+
+
+    <TextView
+        android:id="@+id/text11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="269dp"
+        android:text="Login"
+        android:textColor="#FDA058"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPhone6"
+        android:layout_width="297dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="422dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="  ******"
+        android:inputType="phone"
+        android:textColorHint="#B5B5B5"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="401dp"
+        android:text="Enter OTP"
+        android:textColor="#363636"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPhone6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/text13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="474dp"
+        android:text="Resend code ? 28s"
+        android:textColor="#FDA058"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        style="@style/Widget.MaterialComponents.FloatingActionButton"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="299dp"
+        android:layout_marginTop="631dp"
+        app:backgroundTint="#FDA058"
+        app:fabCustomSize="72dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maxImageSize="32dp"
+        app:srcCompat="@drawable/ic_next"
+        app:tint="@color/white" />
+</androidx.constraintlayout.widget.ConstraintLayout>
